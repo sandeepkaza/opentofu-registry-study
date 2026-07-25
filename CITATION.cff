@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "One Ecosystem, Two Registries: Measuring the Terraform-OpenTofu Fork's Effect on the Module Supply Chain"
+abstract: "A same-day dual-registry measurement of the Terraform-OpenTofu fork's effect on the module supply chain: presence, governance, drift, and security defaults."
+type: dataset
+authors:
+  - family-names: "Kaza"
+    given-names: "Venkata Sandeep Chowdary"
+    email: "sandeep.kaza@gmail.com"
+    orcid: "https://orcid.org/0009-0001-9454-8995"
+license: MIT
+date-released: 2026-07-24
+keywords:
+  - reproducible-measurement
+  - empirical-software-engineering
+# DOI added after Zenodo upload:
+# doi: 10.5281/zenodo.XXXXXXXX
