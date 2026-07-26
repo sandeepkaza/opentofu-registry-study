@@ -1,5 +1,20 @@
-% NOT web-verified by tooling. The author must open and read every entry
-% before submission (see the pre-submission gate in paper.tex).
+% Web-verified 2026-07-26 against USENIX / IEEE Xplore / ACM DL / Springer.
+% Corrections applied that run:
+%   - begoug2025updates carried a WRONG title ("On the Update of
+%     Infrastructure as Code Module Dependencies") and a wrong five-author
+%     list. The real paper is "How Do Infrastructure-as-Code Practitioners
+%     Update Their Dependencies? An Empirical Study on Terraform Module
+%     Updates", Begoug/Ouni/Chouchen, MSR 2025, pp. 642-653 — as paper 4
+%     already had it. The two papers disagreeing on one key is how it
+%     surfaced.
+%   - verdet2025policies verified; DOI added.
+%   - The fork-studies cluster verified as written, DOIs added:
+%     robles2012forks (OSS 2012, IFIP AICT 378:1-14), nyman2013forking
+%     (TIM Review 3(1):7-12), zhou2020forking (ICSE 2020, pp. 445-456),
+%     businge2022variant (EMSE 27(2), art. 54).
+%   - zimmermann2019smallworld, decan2021semver, rahman2019sevensins verified.
+% Remaining entries are vendor URLs plus the kaza2026terraform self-citation
+% (Zenodo DOI already present).
 
 @inproceedings{zimmermann2019smallworld,
   author    = {Zimmermann, Markus and Staicu, Cristian-Alexandru and
@@ -8,7 +23,8 @@
                in the npm Ecosystem},
   booktitle = {28th USENIX Security Symposium (USENIX Security 19)},
   pages     = {995--1010},
-  year      = {2019}
+  year      = {2019},
+  doi = {10.5555/3361338.3361407}
 }
 
 @article{decan2021semver,
@@ -18,7 +34,8 @@
   volume  = {47},
   number  = {6},
   pages   = {1226--1240},
-  year    = {2021}
+  year    = {2021},
+  doi = {10.1109/TSE.2019.2918315}
 }
 
 @inproceedings{rahman2019sevensins,
@@ -26,7 +43,8 @@
   title     = {The Seven Sins: Security Smells in Infrastructure as Code Scripts},
   booktitle = {IEEE/ACM 41st International Conference on Software Engineering (ICSE)},
   pages     = {164--175},
-  year      = {2019}
+  year      = {2019},
+  doi = {10.1109/ICSE.2019.00033}
 }
 
 @article{verdet2025policies,
@@ -35,15 +53,17 @@
   title   = {Assessing the Adoption of Security Policies by Developers in
              Terraform across Different Cloud Providers},
   journal = {Empirical Software Engineering},
-  year    = {2025}
+  year    = {2025},
+  doi     = {10.1007/s10664-024-10610-0}
 }
 
 @inproceedings{begoug2025updates,
-  author    = {Begoug, Mahi and Bessghaier, Narjes and Ouni, Ali and
-               Chouchen, Moataz and Mkaouer, Mohamed Wiem},
-  title     = {On the Update of Infrastructure as Code Module Dependencies},
-  booktitle = {IEEE/ACM International Conference on Mining Software
-               Repositories (MSR)},
+  author    = {Begoug, Mahi and Ouni, Ali and Chouchen, Moataz},
+  title     = {How Do Infrastructure-as-Code Practitioners Update Their
+               Dependencies? An Empirical Study on Terraform Module Updates},
+  booktitle = {Proc.\ 22nd IEEE/ACM International Conference on Mining
+               Software Repositories (MSR)},
+  pages     = {642--653},
   year      = {2025}
 }
 
@@ -54,7 +74,8 @@
   series    = {IFIP AICT},
   volume    = {378},
   pages     = {1--14},
-  year      = {2012}
+  year      = {2012},
+  doi = {10.1007/978-3-642-33442-9_1}
 }
 
 @article{nyman2013forking,
@@ -73,7 +94,8 @@
                on GitHub},
   booktitle = {IEEE/ACM 42nd International Conference on Software Engineering (ICSE)},
   pages     = {445--456},
-  year      = {2020}
+  year      = {2020},
+  doi = {10.1145/3377811.3380412}
 }
 
 @article{businge2022variant,
@@ -85,7 +107,8 @@
   volume  = {27},
   number  = {2},
   pages   = {54},
-  year    = {2022}
+  year    = {2022},
+  doi = {10.1007/s10664-021-10078-2}
 }
 
 @misc{hashicorpbusl,
