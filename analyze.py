@@ -106,7 +106,7 @@ def main():
     # tofu ecosystem shape (full index)
     lines.append("## OpenTofu index shape (full 22k index)\n")
     idx = list(csv.DictReader(open(DATA / "tofu_index.csv", encoding="utf-8")))
-    now = datetime.now(timezone.utc)
+    now = datetime.fromisoformat(snap).replace(tzinfo=timezone.utc)
     n = len(idx)
     tgt = defaultdict(int)
     fresh12 = 0

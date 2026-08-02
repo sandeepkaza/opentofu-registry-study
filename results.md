@@ -20,6 +20,6 @@
 ## OpenTofu index shape (full 22k index)
 
 - modules indexed: 22290
-- released within last 12 months: 2848 (12.8%)
+- released within last 12 months: 2872 (12.9%)
 - top targets: [('aws', 10177), ('azurerm', 2206), ('google', 1161), ('azure', 786), ('kubernetes', 467), ('module', 421), ('shoreline', 395), ('beginner', 361)]
 - registry exposes NO download counts (design difference; popularity proxy = GitHub stars via detail endpoint)
